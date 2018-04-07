@@ -31,6 +31,7 @@ module.exports = function Route(app, server) {
                console.log('got the reset click from the client..')
                counter = 0;
                io.emit('zero', {response: counter})
+
           })
 
      })
