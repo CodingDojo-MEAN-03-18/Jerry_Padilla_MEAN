@@ -5,7 +5,7 @@ var port = 8000;
 
 var app = express()
 
-app.use(express.static(__dirname + '/views'));
+app.use(express.static(__dirname + '/static'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(session({secret: 'secret_key'}));
 
