@@ -81,7 +81,7 @@ module.exports = function Route(app, server){
 
      });
 
-     // this route will delete the document from the database with one click //
+     // this route will delete the document from the database with one click
      app.get('/animal/destroy/:id', (req, res) => {
           console.log('in the destroy with id ', req.params.id);
 
